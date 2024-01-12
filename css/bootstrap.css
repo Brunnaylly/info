@@ -1,0 +1,76 @@
+header{
+  width: 98.8%;
+  min-height: 80px;
+  padding: 5px;
+  background: #8E0E00;
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+  background: linear-gradient(to right, #6441A5, #2a0845);
+  position: relative;
+}
+body{
+  padding: 5px;
+  background: linear-gradient(to right, #C779D0, #4BC0C8);
+}
+table{
+  background-color: #1b0468, yellow;
+}
+
+ul{
+  position: absolute;
+}
+li{
+  display: inline-block;
+  height: 22px;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+li:hover{
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+a{
+  color: rgb(131, 125, 214);
+}
+a:hover{
+  color: rgb(182, 30, 30);
+}
+h1{
+  color: #1b0468;
+  font-family: "Lucida Console", Courier, monospace;
+}
+h3{
+  color: #1b0468;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+input [type="text"], input[type="email"], textarea, select, button{
+  display: block;
+  margin: 15px 0px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px; box-shadow: inset 2px 2px 5px rgb(144, 222, 238);
+}
+textarea{
+  height: 100px;
+  padding: 5px 4px;
+}
+button:active{
+  background-color: rgb(183, 195, 90);
+  color: rgb(255, 255, 255);
+  border-radius: 4px; box-shadow: inset 2px 2px 5px blue;
+}
+p{
+  color: rgb(0, 95, 143);
+  font-family: Times, "Times New Roman", Georgia, serif;
+}
+footer{
+  width: 98.8%;
+  min-height: 200px;
+  padding: 5px;
+  background: linear-gradient(to right, #2a0845, brown);
+  position: relative;
+}
